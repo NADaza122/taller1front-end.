@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilosMenu.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Punto °5</title>
+</head>
+<body>
+    <div class="contentitle">
+        <h2 class="tituloleft">!Bievenido!</h2>
+        <h3 class="tituloleft">Este es el punto N°5</h3>
+    </div>
+
+    <button class="botonsalir"><a href="Menu.html" class="salir">Regresar</a></button>
+
+
+    
+    <section class="cont24">
+        <div class="figuraas">
+            <h1 class="titlefigu">Figuras Geometrícas</h1>
+            <!--OPERACIONES CIRCULO-->
+            <Label class="figura">Círculo</Label>
+            <br>
+            <button type="button"><a href="#miModal" class="area">Área</a></button>
+            <!--MODAL-->
+            <div id="miModal" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="circulotitle">Calcular El Área Del Círculo</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/circulo.png">
+                     <br>
+                     <label class="label1">Ingrese el radio del Círculo:</label>
+                     <br>
+                     <input type="number" id="radiocirculo">
+                     <br>
+                     <button class="botonmodal" type="button" id="circulocalculo"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+
+            <button type="button"><a href="#miModal2" class="perimetro">Perímetro</a></button>
+            <!--MODAL-->
+            <div id="miModal2" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="circulotitle2">Calcular El Perímetro Del Círculo</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/circulo.png">
+                     <br>
+                     <label class="label1">Ingrese el radio del Círculo:</label>
+                     <br>
+                     <input type="number" id="perimetrocirculo">
+                     <br>
+                     <button class="botonmodal" type="button" id="circulocalculo2"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+            <br>
+
+            <!--OPERACIONES CUADRADO-->
+            <Label class="figura">Cuadrado</Label>
+            <br>
+            <button type="button"><a href="#miModal3" class="area">Área</a></button>
+            <!--MODAL-->
+            <div id="miModal3" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="cuadradotitle">Calcular El Área Del Cuadrado</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/cuadrado.png">
+                     <br>
+                     <label class="label2">Ingrese el lado de su Cuadrado:</label>
+                     <br>
+                     <input type="number" id="areacuadrado">
+                     <br>
+                     <button class="botonmodal" type="button" id="cuadradocalculo"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+
+            <button type="button"><a href="#miModal4" class="perimetro">Perímetro</a></button>
+            <!--MODAL-->
+            <div id="miModal4" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="cuadradotitle2">Calcular El Perímetro Del Cuadrado</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/cuadrado.png">
+                     <br>
+                     <label class="label2">Ingrese el lado de su Cuadrado:</label>
+                     <br>
+                     <input type="number" id="perimetrocuadrado">
+                     <br>
+                     <button class="botonmodal" type="button" id="cuadradocalculo2"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+            <br>
+
+
+            <!--OPERACIONES TRIANGULO-->
+            <Label class="figura">Triángulo</Label>
+            <br>
+            <button type="button"><a href="#miModal5" class="area">Área</a></button>
+            <!--MODAL-->
+            <div id="miModal5" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="triangulotitle">Calcular El Área Del Triángulo</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/triangulo.png">
+                     <br>
+                     <label class="label3">Ingrese la base de su Triángulo:</label>
+                        <input type="number" id="triangulobase">
+                     <label class="label3">Ingrese la altura de su Triángulo:</label>
+                        <input type="number" id="trianguloaltura">
+                     <br>
+                     <button class="botonmodal" type="button" id="triangulocalculo"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+
+            <button type="button"><a href="#miModal6" class="perimetro">Perímetro</a></button>
+            <!--MODAL-->
+            <div id="miModal6" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="triangulotitle2">Calcular El Perímetro Del Triángulo</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/triangulo.png">
+                     <br>
+                     <label class="label3">Ingrese el lado 1 de su Triángulo:</label>
+                        <input type="number" id="lado1">
+                     <label class="label3">Ingrese el lado 2 de su Triángulo:</label>
+                        <input type="number" id="lado2">
+                     <label class="label3">Ingrese el lado 3 de su Triángulo:</label>
+                        <input type="number" id="lado3">
+                     <br>
+                     <button class="botonmodal" type="button" id="triangulocalculo2"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+            <br>
+
+
+            <!--OPERACIONES RECTANGULO-->
+            <Label class="figura">Rectágulo</Label>
+            <br>
+            <button type="button"><a href="#miModal7" class="area">Área</a></button>
+            <!--MODAL-->
+            <div id="miModal7" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="rectangulotitle">Calcular El Área Del Rectágulo</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/rectangulo.png"">
+                     <br>
+                     <label class="label4">Ingrese la base de su Rectángulo:</label>
+                     <br>
+                        <input type="number" id="rectangulobase">
+                     <br>
+                     <label class="label4">Ingrese la altura de su Rectángulo:</label>
+                     <br>
+                        <input type="number" id="rectanguloaltura">
+                     <br>
+                     <button class="botonmodal" type="button" id="rectangulocalculo"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+
+            <button type="button"><a href="#miModal8" class="perimetro">Perímetro</a></button>
+            <!--MODAL-->
+            <div id="miModal8" class="modal">
+                <div class="modal-contenido">
+                     <h2 class="rectangulotitle2">Calcular El Perímetro Del Rectágulo</h2>
+                     <br>
+                     <img class="relevantes" src="assets/img/rectangulo.png">
+                     <br>
+                     <label class="label4">Ingrese la base de su Rectángulo:</label>
+                     <br>
+                        <input type="number" id="rectangulobase">
+                     <br>
+                     <label class="label4">Ingrese la altura de su Rectángulo:</label>
+                     <br>
+                        <input type="number" id="rectanguloaltura">
+                     <br>
+                     <button class="botonmodal" type="button" id="rectangulocalculo2"><a>Calcular</a></button>
+                     <button class="botonmodal" type="button"><a class="regreso" href="#">Salir</a></button>
+                </div>  
+             </div>
+        </div>
+    </section>
+
+    <script src="assets/js/punto5.js"></script>
+</body>
+</html>

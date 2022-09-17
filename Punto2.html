@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilosMenu.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Punto °2</title>
+</head>
+<body>
+    <div class="contentitle">
+        <h2 class="tituloleft">!Bievenido!</h2>
+        <h3 class="tituloleft">Este es el punto N°2</h3>
+    </div>
+
+    <button class="botonsalir"><a href="Menu.html" class="salir">Regresar</a></button>
+
+    
+    <section class="cont2">
+        <div class="cont21">
+            
+            <label class="label1">Grados a Convertir:</label>
+            <br>
+            <input type="number" id="temperatura" placeholder="Ingrese aqui la temperatura" >   
+            <br>        
+            <label class="label2">Tipo de Temperatura:</label>
+            <br>
+            <select id="opcion" name="opcion">
+            <option></option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="celsius">Celsius</option>
+            </select>
+            <br>
+            
+            <label class="label3">Convertir A:</label>
+            <br>
+            <button type="button" onclick="fahrenheit();">°F</button>
+            <button type="button" onclick="kelvin();">°K</button>
+            <button type="button" onclick="celsius();">°C</button>
+        </div>
+    </section>
+
+    <script src="assets/js/punto2.js"></script>
+</body>
+</html>
