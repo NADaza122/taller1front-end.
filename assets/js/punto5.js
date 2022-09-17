@@ -1,13 +1,13 @@
-//EJERCICIO FIGURAS GEOMETRICAS AREA Y PERIMETRO//
+//EJERCICIO FIGURAS GEOMETRICAS ÁREA Y PERÍMETRO//
 
-//CÍRCULO AREA// 
-    //definicion de las constante principales
+//CÍRCULO ÁREA// 
+    //definición de las constante principales
     const Circulo=document.getElementById('circulocalculo')
     const pi=3.141592
 
     let circulocalculo = () => {
 
-    //creacion de la constante
+    //creación de la constante
     const areacirculo=document.getElementById('radiocirculo').value
     //operacion 
     let respuesta=pi*(areacirculo*areacirculo)
@@ -18,7 +18,7 @@
     Circulo.addEventListener('click',circulocalculo)
 
 
-//CÍRCULO PERIMETRO//
+//CÍRCULO PEÍMETRO//
     const Circulo2=document.getElementById('circulocalculo2')
     let circulocalculo2 = () => {
 
@@ -31,7 +31,7 @@
 
 
 
-//CUADRADO AREA//
+//CUADRADO ÁREA//
     const Cuadrado=document.getElementById('cuadradocalculo')
 
     let cuadradocalculo=()=>{
@@ -44,7 +44,7 @@
     Cuadrado.addEventListener('click',cuadradocalculo)
 
 
-//CUADRADO PERIMETRO//
+//CUADRADO PERÍMETRO//
     const Cuadrado2=document.getElementById('cuadradocalculo2')
 
     let cuadradocalculo2=()=>{
@@ -58,7 +58,7 @@
 
 
 
-//TRIÁNGULO AREA//
+//TRIÁNGULO ÁREA//
     const Triangulo=document.getElementById('triangulocalculo')
 
 
@@ -73,7 +73,7 @@
     Triangulo.addEventListener('click',areatriangulo)
 
 
-//TRIÁNGULO PERIMETRO//
+//TRIÁNGULO PERÍMETRO//
     const Triangulo2=document.getElementById('triangulocalculo2')
 
     let triangulocalculo2=()=>{
@@ -88,7 +88,7 @@
     Triangulo2.addEventListener('click',triangulocalculo2)
 
 
-//RECTANGULO AREA//
+//RECTÁNGULO ÁREA//
     const Rectangulo=document.getElementById('rectangulocalculo')
 
 
@@ -103,7 +103,7 @@
     Rectangulo.addEventListener('click',arearectangulo)
 
 
-//RECTANGULO PERIMETRO//
+//RECTÁNGULO PERÍMETRO//
     const Rectangulo2=document.getElementById('rectangulocalculo2')
 
     let rectangulocalculo2=()=>{
