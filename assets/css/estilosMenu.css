@@ -506,19 +506,19 @@ body{
 
 .modal-contenido button{
     background-color: #00d9ffaf;
-    width: 150px;
-    height: 10px;
-    padding: 25px;
-    margin: 10px 10px 10px 180px;
-    justify-content: center;
-    align-items: center;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 5px 5px 5px 200px;
+    color: #fff;
 }
 
 .modal-contenido button:hover{
-    background-color: #ffffffd5;
+    background-color: #ffffffa4;
+    color: #000000;
     font-size: 18px;
     font-weight: 600;
-    border-radius: 10px;
+    margin: 5px 5px 5px 200px;
     font-family: sans-serif;
 }
 
